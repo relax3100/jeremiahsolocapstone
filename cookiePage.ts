@@ -11,6 +11,7 @@ export class CookieClicker extends BasePage {
     upgrade1: By = By.css('#upgrade0')
     achievmentX: By = By.xpath('//div[@class="framed close sidenote"]')
     statsBtn: By = By.css('#statsButton')
+    gotIt: By = By.xpath('//a[text()="Got it!"]')
     
 
 constructor() {
